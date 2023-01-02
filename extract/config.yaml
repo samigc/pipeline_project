@@ -1,0 +1,27 @@
+---
+news_sites:
+  eluniversal:
+    url: http://www.eluniversal.com.mx
+    queries:
+      homepage_article_links: '.field-content a'
+      article_body: '.field-name-body'
+      article_title: 'pane-content h1'
+  portopt:
+    url: https://porto.pt
+    queries:
+      homepage_article_links: '.col-lg-6 a'
+      article_body: '.rich-text-block__RichTextBlockWrapper-sc-15nl68s-0'
+      article_title: '.news-detail-header__NewsDetailHeaderWrapper-sc-1dyv2eq-0 h1'
+  portugalnews:
+    url: https://www.theportugalnews.com
+    queries:
+      homepage_article_links: '.stretched-link'
+      article_body: '.article-body'
+      article_title: '.article-heading'
+  rptptnews:
+    url: https://www.rtp.pt/noticias/
+    queries:
+      homepage_article_links: '.media-block'
+      article_body: '.article-lead'
+      article_title: '.article-main-title'
+...
