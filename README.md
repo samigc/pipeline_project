@@ -2,12 +2,12 @@
 
 Project done to train pipeline skills.
 
-The pipeline script runs the extract, transform and load of data mined from three newsites into a database
+When the pipeline script runs, it extract, transform and load of data mined from three newsites into a database
 
 - EL Universal (Mexican media) [Click here to go to "El Universal"](https://www.eluniversal.com.mx/)
 - Portopt (Portuguese Media) [Click here to go to "Porto PT"](https://www.porto.pt/pt)
 - Portugal News (Portuguese Media) [Click here to go to "The Portugal News"](https://www."theportugalnews.com/)
-"
+
 ## Information Extracted
 
 From each newsite, the following information was extracted:
@@ -22,7 +22,7 @@ From each newsite, the following information was extracted:
 
 Run the script **pipeline.py** with python3 from the console line.
 
-The output will be a database in the load folder.
+The output will be a database in the load directory.
 
 ## Take a peak of the data
 
